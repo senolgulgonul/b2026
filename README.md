@@ -1,14 +1,11 @@
 # B2026
 
-<https://github.com/senolgulgonul/b2026>
-
 A soft machine for the Tang Nano 9K, named in homage to the Burroughs
 B1700 and built on its principles (Wilner, 1972): the hardware
 implements no instruction set. Memory is addressed to the bit, an
-operand-length register
-reshapes the arithmetic unit every cycle, and the control store is
-writable at run time, so an instruction set is data rather than a
-synthesis artifact.
+operand-length register reshapes the arithmetic unit every cycle, and
+the control store is writable at run time, so an instruction set is
+data rather than a synthesis artifact.
 
 RV32I is one S-language, written in 838 microwords, passing the
 official riscv-tests rv32ui suite 42 of 42 including misaligned access.

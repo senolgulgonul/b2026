@@ -14,7 +14,22 @@ impl/
 compliance/bins/*.elf
 compliance/bins/*.err
 # third-party cores fetched by compare/fetch_cores.sh
-compare/rtl/serv_*.v
+# (our own wrappers are *_fpga.v and stay tracked)
+compare/third_party/
+compare/rtl/serv_top.v
+compare/rtl/serv_rf_*.v
+compare/rtl/serv_alu.v
+compare/rtl/serv_bufreg*.v
+compare/rtl/serv_csr.v
+compare/rtl/serv_ctrl.v
+compare/rtl/serv_decode.v
+compare/rtl/serv_immdec.v
+compare/rtl/serv_mem_if.v
+compare/rtl/serv_state.v
+compare/rtl/serv_aligner.v
+compare/rtl/serv_compdec.v
+compare/rtl/serv_debug.v
+compare/rtl/serv_synth_wrapper.v
 compare/rtl/picorv32.v
 compare/rtl/glacial.v
 compare/rtl/sram.v
