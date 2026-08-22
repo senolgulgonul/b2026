@@ -35,3 +35,4 @@ compare/rtl/glacial.v
 compare/rtl/sram.v
 compare/sim/sram.mem
 compliance/bins/
+paper/
