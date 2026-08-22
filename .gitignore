@@ -1,0 +1,22 @@
+# simulation and build artifacts
+sim_build/
+__pycache__/
+results.xml
+*.vvp
+*.vcd
+dump.vcd
+# Gowin project output
+impl/
+*_prj/
+*.gprj
+*.gprj.user
+# compliance build products
+compliance/bins/*.elf
+compliance/bins/*.err
+# third-party cores fetched by compare/fetch_cores.sh
+compare/rtl/serv_*.v
+compare/rtl/picorv32.v
+compare/rtl/glacial.v
+compare/rtl/sram.v
+compare/sim/sram.mem
+compliance/bins/
